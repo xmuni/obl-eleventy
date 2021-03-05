@@ -1,4 +1,18 @@
 ---
 label: Home content
 hide_body: true
-fields: []
+fields:
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: text
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image

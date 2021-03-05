@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - homepage-section
+  - home-content
 - type: document
   path: src/about.md
   label: About
