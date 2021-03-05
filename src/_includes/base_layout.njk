@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    
+    {% for stylesheet in stylesheets %}
+        <link rel="stylesheet" href="{{ stylesheet }}" />
+    {% endfor %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMWS9HGPYV"></script>
@@ -19,7 +23,7 @@
     </script>
 <body class="{{ pagename }}" id="{{ pagename }}">
 
-    <header class="{% if pagename == 'obl-foto' %}green{% endif %}">
+    <header class="{% if pagename == 'obl-foto' or pagename == 'gallery' %}green{% endif %}">
 
         {% if pagename == 'home' %}
         <div class="side">
@@ -69,7 +73,7 @@
     <footer class="light {{ pagename }}">Design © 2020 Vittorio Minuzzo</footer>
 
     {% for script in scripts %}
-    <script src="/{{ script }}"></script>
+    <script src="{{ script }}"></script>
     {% endfor %}
     
 </body>
