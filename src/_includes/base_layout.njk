@@ -17,11 +17,11 @@
 
         gtag('config', 'G-QMWS9HGPYV');
     </script>
-<body class="{{ bodyclass }}" id="{{ bodyid }}">
+<body class="{{ pagename }}" id="{{ pagename }}">
 
-    <header class="{% if bodyid == 'obl-foto' %}green{% endif %}">
+    <header class="{% if pagename == 'obl-foto' %}green{% endif %}">
 
-        {% if bodyid == 'home' %}
+        {% if pagename == 'home' %}
         <div class="side">
             <img class="" src="/media/papavero-color3.jpg" alt="">
         </div>
@@ -42,7 +42,7 @@
             </nav>
 
         </div>
-        {% if bodyid == 'home' %}
+        {% if pagename == 'home' %}
         <div class="side">
             <img class="" src="/media/obl-map-hd.png" alt="">
         </div>
@@ -50,7 +50,7 @@
         <div></div>
         {% endif %}
 
-        {% if bodyid == 'obl-foto' %}
+        {% if pagename == 'obl-foto' %}
         <div class="bg-dash"></div>
         {% endif %}
     
@@ -59,14 +59,14 @@
 
 
 
-    <main class="{{ mainclass }}" id="{{ mainid }}">
+    <main class="{{ pagename }}" id="{{ mainid }}">
         {{ content | safe }}
     </main>
 
 
 
 
-    <footer class="light {{ mainclass }}">Design © 2020 Vittorio Minuzzo</footer>
+    <footer class="light {{ pagename }}">Design © 2020 Vittorio Minuzzo</footer>
 
     {% for script in scripts %}
     <script src="/{{ script }}"></script>

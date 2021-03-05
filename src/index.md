@@ -3,8 +3,7 @@ title: Home page title
 layout: base_layout
 rerender: true
 mainclass: home
-bodyid: home
-bodyclass: bg-eagle
+pagename: home
 navselect: home
 ---
 {% for item in collections.home-content %}

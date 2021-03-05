@@ -317,11 +317,18 @@ p {
     /* letter-spacing: 0.05rem; */
 }
 
-#about main p {
-    text-align: justify;
-    max-width: 30rem;
-    color: #222;
-    line-height: 1.6rem;
+body.about main {
+    p {
+        text-align: justify;
+        max-width: 33rem;
+        color: #222;
+        line-height: 1.6rem;
+        letter-spacing: .05rem;
+    }
+    
+    img {
+        max-width: 100%;
+    }
 }
 
 h1 {
@@ -404,10 +411,6 @@ img.shadow {
     box-shadow: 0 .5rem 1rem 1rem rgba(0, 0, 0, 0.05);
 }
 
-#about img {
-    max-width: 400px;
-}
-
 
 .pdf-pages {
     text-transform: uppercase;
@@ -437,7 +440,7 @@ img.shadow {
     color: rgb(4, 90, 148);
 }
 
-body.bg-eagle {
+body.home {
     background-size: cover;
     background-position: center;
     background-image: url('/media/sfondo.jpg');
