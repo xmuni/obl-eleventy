@@ -2,3 +2,5 @@
 label: Homepage Section
 hide_body: true
 fields: []
+pages:
+- src/home-content/0.md
