@@ -34,19 +34,11 @@ importanti gestite dalle maggiori Associazioni ambientaliste.
 
 ![Orto Botanico Locatelli](https://www.mmoblfoto.it/img/orto.jpg)
 
-Link consigliati:
+#### Link consigliati:
 
-[WWF - Dune degli Alberoni](https://www.wwf.it/oasi/veneto/dune_degli_alberoni/)
-(www.wwf.it)
+* [WWF - Dune degli Alberoni](https://www.wwf.it/oasi/veneto/dune_degli_alberoni/)
+* [LIPU Venezia - Oasi Ca' Roman](http://www.lipuvenezia.it/index.php/oasi-ca-roman)
+* [Percorso Didattico San Giuliano](http://www.enti.comune.venezia.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/49)
+* [Orto Botanico Didattico](https://www.nicolasaba.it/orto%20botanico.html)
+* [Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia)
 
-[LIPU Venezia - Oasi Ca' Roman](http://www.lipuvenezia.it/index.php/oasi-ca-roman)
-(www.lipuvenezia.it)
-
-[Percorso Didattico San Giuliano](http://www.enti.comune.venezia.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/49)
-(www.enti.comune.venezia.it)
-
-[Orto Botanico Didattico](https://www.nicolasaba.it/orto%20botanico.html)
-(www.nicolasaba.it)
-
-[Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia)
-(www.filosofiatv.org)

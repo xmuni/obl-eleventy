@@ -1,5 +1,6 @@
 ---
 image: "/media/anteprima-cataloghi.png"
+date: 2021-01-01
 ---
 # Cataloghi
 

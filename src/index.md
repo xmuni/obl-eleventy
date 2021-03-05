@@ -11,7 +11,7 @@ navselect: home
 <section id="" class="">
 
 <div class="display-row">
-<div class="display-column">{{ item.data.text}}</div>
+<div class="display-column">{{ item.templateContent }}</div>
 <div class="display-column"><img src="{{ item.data.image }}"/></div>
 </div>
 

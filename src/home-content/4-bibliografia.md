@@ -1,5 +1,6 @@
 ---
 image: "/media/anteprima-bibliografia.png"
+date: 2021-01-04
 ---
 # Bibliografia Generale
 

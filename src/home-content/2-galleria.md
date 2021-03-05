@@ -1,5 +1,6 @@
 ---
 image: "/media/cover_mushroom.jpg"
+date: 2021-01-02
 ---
 # [Galleria fotografica](https://www.mmoblfoto.it/obl-foto.html)
 

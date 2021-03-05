@@ -1,5 +1,6 @@
 ---
 image: "/media/anteprima-opuscoli.png"
+date: 2021-01-03
 ---
 # Opuscoli annuali
 
