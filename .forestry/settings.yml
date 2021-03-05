@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: src/home-content
-  label: Homepage
-  create: documents
-  match: "**/*"
-  templates:
-  - homepage-section
 - type: document
   path: src/about.md
   label: About
