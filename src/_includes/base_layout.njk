@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orto Botanico Locatelli</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMWS9HGPYV"></script>
@@ -19,11 +19,15 @@
     </script>
 <body class="{{ bodyclass }}" id="{{ bodyid }}">
 
-    <header>
+    <header class="{% if bodyid == 'obl-foto' %}green{% endif %}">
 
+        {% if bodyid == 'home' %}
         <div class="side">
-            <img class="" src="media/papavero-color3.jpg" alt="">
+            <img class="" src="/media/papavero-color3.jpg" alt="">
         </div>
+        {% else %}
+        <div></div>
+        {% endif %}
         <div id="titoli">
             <h1>
                 <a href="/">ORTO BOTANICO LOCATELLI</a>
@@ -32,15 +36,23 @@
             <p>Osservare, conoscere, fotografare</p>
 
             <nav>
-                <a class="selected" href="/">Home</a>
-                <a class="" href="/obl-foto">Fotografie</a>
-                <a class="" href="/about">Info</a>
+                <a class="{% if navselect == 'home' %}selected{% endif %}" href="/">Home</a>
+                <a class="{% if navselect == 'gallery' %}selected{% endif %}" href="/obl-foto">Fotografie</a>
+                <a class="{% if navselect == 'about' %}selected{% endif %}" href="/about">Info</a>
             </nav>
 
         </div>
+        {% if bodyid == 'home' %}
         <div class="side">
-            <img class="" src="media/obl-map-hd.png" alt="">
+            <img class="" src="/media/obl-map-hd.png" alt="">
         </div>
+        {% else %}
+        <div></div>
+        {% endif %}
+
+        {% if bodyid == 'obl-foto' %}
+        <div class="bg-dash"></div>
+        {% endif %}
     
     </header>
 
@@ -54,7 +66,12 @@
 
 
 
-    <footer class="light">Design © 2020 Vittorio Minuzzo</footer>
+    <footer class="light {{ mainclass }}">Design © 2020 Vittorio Minuzzo</footer>
 
+    {% for script in scripts %}
+    <script src="/{{ script }}"></script>
+    {% endfor %}
+    
 </body>
+
 </html>

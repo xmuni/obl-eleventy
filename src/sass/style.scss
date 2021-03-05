@@ -38,10 +38,12 @@ body {
 }
 
 figure {
-    padding: 3vw;
+    padding: 1rem;
 }
 
-
+a {
+    color: $mainblue;
+}
 
 
 
@@ -89,6 +91,14 @@ header {
 
     /* display: grid; */
     /* grid-template-columns: 400px 1fr 400px; */
+
+    a {
+        color: inherit;
+    }
+
+    nav a {
+        color: inherit;
+    }
 }
 
 header img {
@@ -116,37 +126,43 @@ header .side:last-child {
     background: transparent;
 }
 
-header#titoli {
-    display: flex;
-    justify-content: center;
-}
+header {
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-top: 3vh;
-    margin-bottom: 1vh;
-}
+    color: $mainblue;
 
-nav a {
-    /* margin: 0 1rem; */
-    padding: .4rem 1rem;
-    /* border-bottom: 1px solid rgb(4, 90, 148); */
-    /* background: rgba(4, 90, 148, 0.1); */
-    border-radius: 0.1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    font-weight: normal;
-    min-width: 10rem;
-    color: inherit;
-}
+    #titoli {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-nav a.selected {
-    font-weight: bold;
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
+
+    nav a {
+        /* margin: 0 1rem; */
+        padding: .4rem 1rem;
+        /* border-bottom: 1px solid rgb(4, 90, 148); */
+        /* background: rgba(4, 90, 148, 0.1); */
+        border-radius: 0.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-weight: normal;
+        min-width: 10rem;
+        color: inherit;
+    }
+
+    nav a.selected {
+        font-weight: bold;
+    }
 }
 
 section {
@@ -159,6 +175,10 @@ section {
     /* padding: 2vh 0 4vh 0; */
     padding: 3vh 0;
     min-height: 30vh;
+}
+
+main.home section:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 main.home section:nth-child(even) {
@@ -181,7 +201,7 @@ a {
 
     line-height: 1.5rem;
     font-weight: bold;
-    color: inherit;
+    // color: inherit;
     letter-spacing: inherit;
 
     text-decoration: none;
@@ -198,25 +218,49 @@ section a {
     border-radius: 0.1rem;
 }
 
-section.bianco a {
-    border-bottom: 0.1rem solid #ccc;
-}
-
-.display-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-
-    a {
-        color: white;
-    }
-
-    &:nth-child(1) a {
+main.home {
+    .display-row:nth-child(1),
+    .display-row:nth-child(2) {
         color: $mainblue;
     }
+    .display-row:nth-child(3),
+    .display-row:nth-child(4) {
+        color: white;
+    }
+}
 
+main.home section:nth-child(3),
+main.home section:nth-child(4) {
+    color: white;
+    h1, h2, h3 {
+        color: white;
+    }
+    ul li a {
+        color: white;
+        border-color: white;
+    }
+    p {
+        color: white;
+    }
+    a {
+        color: white
+    }
+}
+
+.display-row {
+
+    .display-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: inherit;
+    }
+
+    a {
+        color: inherit;
+    }
+    
     h1 a {
     
         background: rgba(84, 126, 204, 0.25);
@@ -242,14 +286,11 @@ section.bianco a {
             transition: 100ms;
         }
     }
+
 }
 
-main.home .display-row:nth-child(1),
-main.home .display-row:nth-child(2) {
-    color: $mainblue;
-}
 
-.arrow::after {
+main.home section:nth-child(2) h3::after {
     position: relative;
     /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
     content: "";
@@ -336,11 +377,9 @@ audio {
     opacity: 0.9;
 }
 
-#home main img {
+main.home img,
+header img {
     margin: 20px 30px;
-}
-
-#home img, header img {
     max-width: 400px;
     max-height: 400px;
     object-fit: cover;
@@ -348,7 +387,7 @@ audio {
 }
 
 
-main img {
+main.home img {
     max-width: 400px;
     margin: 10px;
 }
@@ -391,10 +430,6 @@ img.shadow {
     color: rgb(4, 90, 148);
 }
 
-.bianco {
-    color: white;
-}
-
 body.bg-eagle {
     background-size: cover;
     background-position: center;
@@ -411,7 +446,6 @@ body.bg-eagle {
     justify-items: center; */
 
     // color: rgb(4, 90, 148);
-    color: white;
 
     /* width: 100%; */
     /* max-width: 100rem; */
@@ -788,7 +822,7 @@ footer {
     font-size: 0.9rem;
 }
 
-footer.light {
+footer.home {
     color: rgba(255, 255, 255, 0.4);
     background: transparent;
 }

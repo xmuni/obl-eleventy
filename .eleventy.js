@@ -2,6 +2,7 @@ module.exports = (eleventyConfig) => {
     // config.addPassthroughCopy({'src/_includes/assets/css/main.min.css': 'css/main.min.css'});
     eleventyConfig.addPassthroughCopy({ "src/media": "media" });
     eleventyConfig.addPassthroughCopy({ "src/img": "img" });
+    eleventyConfig.addPassthroughCopy({ "src/main.js": "main.js" });
 
     eleventyConfig.addWatchTarget("./src/sass/");
 

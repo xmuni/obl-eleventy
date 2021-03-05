@@ -5,7 +5,7 @@ text: |2-
 
   # Bibliografia Generale
 
-  * [Bibliografia Generale (elenco e immagini copertine)]("/gallery.html#paesaggi") {.pdf}
+  * [Bibliografia Generale<br/>(elenco e immagini copertine)]("/gallery.html#paesaggi") {.pdf}
 
   # Bibliografia Tematica
 

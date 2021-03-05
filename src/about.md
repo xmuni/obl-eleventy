@@ -1,6 +1,8 @@
 ---
-title: About page
+title: Orto Botanico Locatelli
 layout: base_layout
+bodyid: about
+navselect: about
 ---
 
 ## L'Orto Botanico Locatelli

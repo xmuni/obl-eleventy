@@ -5,6 +5,7 @@ rerender: true
 mainclass: home
 bodyid: home
 bodyclass: bg-eagle
+navselect: home
 ---
 {% for item in collections.home-content %}
 <section id="" class="">
