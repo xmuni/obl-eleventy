@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orto Botanico Locatelli</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMWS9HGPYV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QMWS9HGPYV');
+    </script>
+<body class="{{ bodyclass }}" id="{{ bodyid }}">
+
+    <header>
+
+        <div class="side">
+            <img class="" src="media/papavero-color3.jpg" alt="">
+        </div>
+        <div id="titoli">
+            <h1>
+                <a href="/">ORTO BOTANICO LOCATELLI</a>
+            </h1>
+            <p>La Natura maestra di vita</p>
+            <p>Osservare, conoscere, fotografare</p>
+
+            <nav>
+                <a class="selected" href="/">Home</a>
+                <a class="" href="/obl-foto">Fotografie</a>
+                <a class="" href="/about">Info</a>
+            </nav>
+
+        </div>
+        <div class="side">
+            <img class="" src="media/obl-map-hd.png" alt="">
+        </div>
+    
+    </header>
+
+
+
+
+    <main class="{{ mainclass }}" id="{{ mainid }}">
+        {{ content | safe }}
+    </main>
+
+
+
+
+    <footer class="light">Design © 2020 Vittorio Minuzzo</footer>
+
+</body>
+</html>
