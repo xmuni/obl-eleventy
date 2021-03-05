@@ -5,20 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/home-content/4-bibliografia.md
-  label: 4 Bibliografia
-  match: "**/*"
-- type: document
-  path: src/home-content/2-galleria.md
-  label: 2 Galleria
-- type: directory
-  path: src/home-content
-  label: Home Content
-  create: documents
-  match: "**/*"
-  templates:
-  - home-content
-- type: document
   path: src/about.md
   label: About
 upload_dir: src/media
