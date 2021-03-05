@@ -4,10 +4,10 @@ date: 2021-01-04
 ---
 # Bibliografia Generale
 
-* [Bibliografia Generale<br/>(elenco e immagini copertine)]("/gallery.html#paesaggi") {.pdf}
+* [Bibliografia Generale<br/>(elenco e immagini copertine)](/media/bibliografia-generale.pdf) {.pdf}
 
 # Bibliografia Tematica
 
-* [L'intelligenza vegetale]("/gallery.html#macro") {.pdf}
+* [L'intelligenza vegetale](/media/bibliografia-tematica-intelligenza-vegetale.pdf) {.pdf}
 
 Aggiornamento mensile<br/>per ulteriori opuscoli
