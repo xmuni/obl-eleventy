@@ -4,11 +4,17 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: src/about.md
+  label: About
+  match: "**/*"
 - type: directory
   path: src/home-content
   label: Homepage
   create: documents
   match: "**/*"
+  templates:
+  - homepage-section
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
