@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url: https://api.netlify.com/build_hooks/6042bccbbc9af917e635ed9d
 sections:
 - type: document
   path: src/home-content/1-cataloghi.md
