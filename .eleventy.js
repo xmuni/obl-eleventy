@@ -8,6 +8,7 @@ module.exports = (eleventyConfig) => {
 
     eleventyConfig.addShortcode('youtube', require('./src/_shortcodes/youtube.js'));
     eleventyConfig.addShortcode('audio', require('./src/_shortcodes/audio.js'));
+    eleventyConfig.addShortcode('currentyear', require('./src/_shortcodes/currentyear.js'));
 
     // const outdent = require("outdent")({ newline: " " });
 
