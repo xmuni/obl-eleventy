@@ -6,7 +6,10 @@ module.exports = (eleventyConfig) => {
 
     eleventyConfig.addWatchTarget("./src/sass/");
 
-    const outdent = require("outdent")({ newline: " " });
+    eleventyConfig.addShortcode('youtube', require('./src/_shortcodes/youtube.js'));
+    eleventyConfig.addShortcode('audio', require('./src/_shortcodes/audio.js'));
+
+    // const outdent = require("outdent")({ newline: " " });
 
     const markdownIt = require('markdown-it')
     const markdownItAttrs = require('markdown-it-attrs')
