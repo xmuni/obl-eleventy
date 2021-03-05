@@ -290,18 +290,25 @@ main.home section:nth-child(4) {
 }
 
 
-main.home section:nth-child(2) h3::after {
-    position: relative;
-    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
-    content: "";
-    display: inline-block;
-    /* By using an em scale, the arrows will size with the font */
-    width: 0.4rem;
-    height: 0.4rem;
-    border-right: 0.2em solid rgb(4, 90, 148);
-    border-top: 0.2em solid rgb(4, 90, 148);
-    transform: rotate(45deg);
-    margin-right: 0.4rem;
+main.home section:nth-child(2) h1 a {
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    &::after {
+        position: relative;
+        /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+        content: "";
+        display: inline-block;
+        /* By using an em scale, the arrows will size with the font */
+        width: 0.4rem;
+        height: 0.4rem;
+        border-right: 0.2em solid rgb(4, 90, 148);
+        border-top: 0.2em solid rgb(4, 90, 148);
+        transform: rotate(45deg);
+        margin-right: 0.4rem;
+        margin-left: .5rem;
+    }
 }
 
 p {

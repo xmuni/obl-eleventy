@@ -5,12 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: src/home-content/1-cataloghi.md
+  label: 1. Galleria
+- type: document
   path: src/home-content/2-galleria.md
-  label: 2 - Galleria
-  match: "**/*"
+  label: 2. Galleria
+- type: document
+  path: src/home-content/3-opuscoli.md
+  label: 3. Opuscoli
 - type: document
   path: src/home-content/4-bibliografia.md
-  label: Home 1
+  label: 4. Bibliografia
 - type: document
   path: src/about.md
   label: About
