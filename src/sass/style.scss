@@ -329,6 +329,12 @@ body.about main {
     img {
         max-width: 100%;
     }
+
+    blockquote p {
+        padding-left: 1rem;
+        border-left: 3px solid #ccc;
+        color: #888;
+    }
 }
 
 h1 {

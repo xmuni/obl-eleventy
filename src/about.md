@@ -1,9 +1,8 @@
 ---
-title: Orto Botanico Locatelli
+title: Orto Botanico Locatelli - Info
 layout: base_layout
 pagename: about
 navselect: about
-
 ---
 ## L'Orto Botanico Locatelli
 
@@ -24,7 +23,7 @@ Nell'ambito del territorio comunale veneziano altre realtà sono presenti con sp
 
 [Wikipedia (Inglese):](https://en.wikipedia.org/wiki/Orto_Botanico_Locatelli)
 
-> The Orto Botanico Locatelli (300 m²) is a small [botanical garden](https://en.wikipedia.org/wiki/Botanical_garden "Botanical garden") located in the northeastern corner of the Parco della Bissuola (Parco Albanese), [Mestre](https://en.wikipedia.org/wiki/Mestre "Mestre"), [Veneto](https://en.wikipedia.org/wiki/Veneto "Veneto"), [Italy](https://en.wikipedia.org/wiki/Italy "Italy"). It is open Sunday evenings from May to October.
+> The Orto Botanico Locatelli (300 m²) is a small botanical garden located in the northeastern corner of the Parco della Bissuola (Parco Albanese), Mestre, Veneto, Italy. It is open Sunday evenings from May to October.
 
 #### Link consigliati:
 
