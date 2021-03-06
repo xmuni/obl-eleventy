@@ -1,8 +1,7 @@
 ---
-title: Home page title
+title: Orto Botanico Locatelli
 layout: base_layout
 rerender: true
-mainclass: home
 pagename: home
 navselect: home
 ---
