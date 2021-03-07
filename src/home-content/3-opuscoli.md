@@ -5,7 +5,7 @@ date: 2021-01-03
 ---
 # Opuscoli annuali
 
-* [Piante e percorsi labirintici](/media/opuscolo2021labirinti.pdf "Piante e percorsi labirintici")
+* [Piante e percorsi labirintici](/media/opuscolo2021labirinti.pdf "Piante e percorsi labirintici") {.pdf}
 * [Aromatiche]() {.pdf}
 * [Alberi e Salute](/media/alberi-e-salute-gemmoterapia.pdf) {.pdf}
 * [Piante e Bellezza](/media/Piante-e-bellezza.pdf) {.pdf}
