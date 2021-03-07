@@ -1,11 +1,11 @@
 ---
-image: "/media/anteprima-opuscoli.png"
+image: "/mediaopuscolo2021labirinti.pdf"
 date: 2021-01-03
 
 ---
 # Opuscoli annuali
 
-* /mediaopuscolo2021labirinti.pdf
+* Labirinti2021.pdf
 * [Aromatiche](/media/OBL-2013-Aromatiche-testo-cartaceo-2020.pdf) {.pdf}
 * [Alberi e Salute](/media/alberi-e-salute-gemmoterapia.pdf) {.pdf}
 * [Piante e Bellezza](/media/Piante-e-bellezza.pdf) {.pdf}
