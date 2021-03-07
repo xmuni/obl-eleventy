@@ -1,9 +1,11 @@
 ---
 image: "/media/anteprima-opuscoli.png"
 date: 2021-01-03
+
 ---
 # Opuscoli annuali
 
+* Piante e percorsi labirintici (pdf)
 * [Aromatiche](/media/OBL-2013-Aromatiche-testo-cartaceo-2020.pdf) {.pdf}
 * [Alberi e Salute](/media/alberi-e-salute-gemmoterapia.pdf) {.pdf}
 * [Piante e Bellezza](/media/Piante-e-bellezza.pdf) {.pdf}
