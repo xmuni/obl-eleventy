@@ -10,7 +10,7 @@ navselect: about
 
 Grazie all'impegno del Comune di Venezia, dell'allora Consiglio di Quartiere Carpenedo Bissuola e del lavoro tecnico del geom. p.a. Roberto Michieletto, è stato possibile tradurre, a metà degli anni novanta, la realizzazione di un orto botanico di quartiere progettato dall'Associazione "Gruppo Ricerca Culturale Locatelli" all'interno del Parco della Bissuola.
 
-![Orto Botanico Locatelli](https://www.mmoblfoto.it/img/orto.jpg)
+![Orto Botanico Locatelli](/media/orto.jpg)
 
 Soprattutto nel primo decennio ampia è stata la frequentazione da parte di scuole elementari e medie.
 
