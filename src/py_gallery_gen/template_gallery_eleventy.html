@@ -1,0 +1,39 @@
+---
+title: Orto Botanico Locatelli - Galleria fotografica
+layout: base_layout
+pagename: gallery
+navselect: gallery
+scripts: ["/main.js", "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"]
+stylesheets: ["https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"]
+---
+
+<div id="photo-viewer">
+
+    <div id="categories">
+
+    {% for cat in category_names %}
+        
+        <h3 id="{{ categories[cat]['codename'] }}">{{ categories[cat]['label'] }}</h3>
+
+        <div class="category">
+            {% for image in categories[cat]['images'] %}
+            <a data-fancybox="gallery"
+                href="/img/{{ categories[cat]['codename'] }}/{{ image['path'] }}_h.jpg"
+                data-caption="{{ image['caption'] }}">
+                <img data-caption="{{ image['caption'] }}"
+                    src="/img/{{ categories[cat]['codename'] }}/{{ image['path'] }}_s.jpg">
+            </a>
+            {% endfor %}
+        </div>
+
+    {% endfor %}
+
+    </div>
+
+    <div id="big-image">
+        <h3 class="transparent">Immagine</h3>
+        <img src="/img/default.jpg" alt="">
+        <div id="caption"></div>
+    </div>
+
+</div>
