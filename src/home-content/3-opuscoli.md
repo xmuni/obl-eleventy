@@ -6,7 +6,7 @@ date: 2021-01-03
 # Opuscoli annuali
 
 * [Piante e percorsi labirintici](/media/opuscolo2021labirinti.pdf "Piante e percorsi labirintici") {.pdf}
-* [Aromatiche](/media/testo-aromaterapia-ok.pdf "Aromatiche") {.pdf}
+* [Aromatiche](/media/OBL-2013-Aromatiche-testo-cartaceo-2020.pdf "Aromatiche") {.pdf}
 * [Alberi e Salute](/media/alberi-e-salute-gemmoterapia.pdf) {.pdf}
 * [Piante e Bellezza](/media/Piante-e-bellezza.pdf) {.pdf}
 * [Piante Alimentari Spontanee (1)](/media/piante-alimentari-spontanee.pdf) {.pdf}
