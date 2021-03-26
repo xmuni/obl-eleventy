@@ -1,5 +1,5 @@
 ---
-image: "/media/anteprima-opuscoli.png"
+image: "/media/testo_aromatiche_ok.pdf"
 date: 2021-01-03
 
 ---
