@@ -1,5 +1,5 @@
 ---
-image: "/media/testo_aromatiche_ok.pdf"
+image: "/media/testo_aromaterapia_ok.pdf"
 date: 2021-01-03
 
 ---
