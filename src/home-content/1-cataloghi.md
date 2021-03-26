@@ -10,3 +10,5 @@ date: 2021-01-01
 {% audio "ventotene.mp3" %}
 
 [Lettura consigliata: La Primavera di Botticelli](https://www.guidaturistica-michelebusillo.com/it/dettagli-di-primavera/)
+
+[Link consigliato - Dante e alberi {.pdf}](/media/dante-e-alberi.pdf "Alberi e Dante")
