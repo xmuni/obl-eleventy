@@ -32,4 +32,4 @@ Nell'ambito del territorio comunale veneziano altre realtà sono presenti con sp
 * [LIPU Venezia - Oasi Ca' Roman](http://www.lipuvenezia.it/index.php/oasi-ca-roman)
 * [Percorso Didattico San Giuliano](/media/percorso_didattico_alberi_bz4.pdf "Percorso didattico")
 * [Orto Botanico Didattico](https://www.nicolasaba.it/orto%20botanico.html)
-* [Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia)
+* [Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia) (Associazione EcoFilosofica) 
