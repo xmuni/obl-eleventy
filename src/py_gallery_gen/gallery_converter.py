@@ -8,10 +8,9 @@ from jinja_renderer import render_template
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 
 
-# PATH_INPUT  = './source/img'
 PATH_INPUT  = 'D:/Dropbox/img 6x4 foto fullhd'
-PATH_OUTPUT_IMG = '../img/'
-PATH_OUTPUT_RENDER = '../'
+PATH_OUTPUT_IMG = os.path.join(THIS_FOLDER,'../img/')
+PATH_OUTPUT_RENDER = os.path.join(THIS_FOLDER,'../')
 
 RESIZE = True
 OVERWRITE = False
