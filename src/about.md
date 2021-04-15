@@ -3,6 +3,7 @@ title: Orto Botanico Locatelli - Info
 layout: base_layout
 pagename: about
 navselect: about
+
 ---
 ## L'Orto Botanico Locatelli
 
@@ -29,6 +30,6 @@ Nell'ambito del territorio comunale veneziano altre realtà sono presenti con sp
 
 * [WWF - Dune degli Alberoni](https://www.wwf.it/oasi/veneto/dune_degli_alberoni/)
 * [LIPU Venezia - Oasi Ca' Roman](http://www.lipuvenezia.it/index.php/oasi-ca-roman)
-* [Percorso Didattico San Giuliano](http://www.enti.comune.venezia.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/49)
+* [Percorso Didattico San Giuliano](/media/percorso_didattico_alberi_bz4.pdf "Percorso didattico")
 * [Orto Botanico Didattico](https://www.nicolasaba.it/orto%20botanico.html)
-* [Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia)
+* [Uomo e Natura](https://www.filosofiatv.org/index.php?topic=ecofilosofia) (Associazione EcoFilosofica) 
