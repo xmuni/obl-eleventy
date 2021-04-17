@@ -139,6 +139,7 @@ header {
     nav {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-items: center;
         align-items: center;
         align-content: center;
